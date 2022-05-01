@@ -34,4 +34,5 @@ fn create_variables(){
     let my_infered = 0;
     let my_var = 1_i8;
     let my_var2: u32 = 0;
+    let _unused_var = 0;
 }
