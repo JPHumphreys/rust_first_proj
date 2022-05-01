@@ -35,4 +35,11 @@ fn create_variables(){
     let my_var = 1_i8;
     let my_var2: u32 = 0;
     let _unused_var = 0;
+
+    let my_float = 17.2;
+    let my_unsigned:u8 = 5;
+
+    let casted_unsigned = my_unsigned as f32;
+
+    let result = my_float / casted_unsigned;
 }
