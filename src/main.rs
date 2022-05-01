@@ -3,6 +3,7 @@
 fn main() {
     print_lat_long();
     print_strings();
+    create_variables();
 }
 
 fn print_lat_long(){
@@ -27,4 +28,10 @@ fn print_strings(){
     slogan.push(' ');
     slogan = slogan + "every time";
     print!("{}", slogan);
+}
+
+fn create_variables(){
+    let my_infered = 0;
+    let my_var = 1_i8;
+    let my_var2: u32 = 0;
 }
