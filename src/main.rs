@@ -16,4 +16,9 @@ fn print_strings(){
     let person_name_string = String::from("Donald Mallard");
     let person_name_slice2 = &person_name_string;
     let person_name_slice3 = person_name_string.as_str();
+
+    let duck = "Duck";
+    let airlines = "Airlines";
+
+    let airline_name = [duck, " ", airlines].concat();
 }
