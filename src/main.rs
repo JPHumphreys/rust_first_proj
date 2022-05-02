@@ -52,4 +52,5 @@ fn operators(){
     let have_pass = true;
     let have_id = true;
     let can_board = have_pass && have_id;
+    let can_or_board = have_pass || have_id;
 }
