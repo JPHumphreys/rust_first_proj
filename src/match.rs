@@ -17,4 +17,10 @@ fn basic(){
             print!("invalid");
         }
     }
+
+
+
+    if let animal = "Duck"{
+        print!("Quack");
+    }
 }
