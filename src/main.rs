@@ -48,4 +48,8 @@ fn operators(){
     let squared = i32::pow(8, 2);
     let is_true = 1==1;
     let is_not_true = 1 !=2;
+
+    let have_pass = true;
+    let have_id = true;
+    let can_board = have_pass && have_id;
 }
