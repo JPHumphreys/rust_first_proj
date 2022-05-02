@@ -4,6 +4,7 @@ fn main() {
     print_lat_long();
     print_strings();
     create_variables();
+    operators();
 }
 
 fn print_lat_long(){
@@ -41,4 +42,8 @@ fn create_variables(){
     let casted_unsigned = my_unsigned as f32;
     
     let result = my_float / casted_unsigned;
+}
+
+fn operators(){
+    let squared = i32::pow(8, 2);
 }
