@@ -5,4 +5,16 @@ fn basic(){
         "Dog" => print!("Woof"),
         _ => print!("Beep Boop")
     }
+
+
+    let frequency = 384;
+
+    match frequency{
+        200..=500 => {
+            print!("valid");
+        }
+        _ => {
+            print!("invalid");
+        }
+    }
 }
